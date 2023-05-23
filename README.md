@@ -3,7 +3,7 @@ Performed CRUD operations Python's FastAPI library using MySQL for database and 
 Reference Article : https://medium.com/@dennisivy/my-first-crud-app-with-fast-api-74ac190d2dcc <br />
 livestreamed video : https://www.youtube.com/watch?v=FOZNYBu8u18 <br />
 
-## Installation
+## Virtual Environment Setup
 In order to run the app, it is recommended you first create and activate a virtual environment:
 ```bash
 python -m venv crud
@@ -16,6 +16,7 @@ crud\Scripts\activate
 # For Unix-based OS
 source crud/bin/activate
 ```
+## Installing Libraries 
 
 Once the virtual environment is activated, <br />
 To install all necessary libraries, simply run <br />
@@ -30,7 +31,7 @@ The most common way is by running the command
 uvicorn main:app --reload
 ```
 where main.py is the main driver file <br />
-
+<br />
 If you would like to choose a specific port (if 8000 is already occupied by another program), then you can run
 ```bash
 uvicorn main:app --reload --port <PORT>
