@@ -1,5 +1,5 @@
 # FastAPI-CRUD
-Performed CRUD operations Python's FastAPI library using MySQL for database and SQLAlchemy for database connectivity. <br />
+Performed CRUD operations Python's FastAPI library using MySQL for database and SQLAlchemy for database connectivity. <br /><br />
 Reference Article : https://medium.com/@dennisivy/my-first-crud-app-with-fast-api-74ac190d2dcc <br />
 livestreamed video : https://www.youtube.com/watch?v=FOZNYBu8u18 <br />
 
